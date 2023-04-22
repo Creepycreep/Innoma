@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+	<!-- Начало: Данный блок удалять нельзя -->
+	<style>
+		.maketforfigma {
+			flex: 0 0 auto;
+			/*background: #303b44;*/
+			/*background: #5CDB95;*/
+			background: #313a46;
+			font-weight: bold;
+			display: flex;
+		}
+
+		.maketforfigma img {
+			border-radius: 10px;
+			margin: 4px 0 0 4px;
+		}
+
+		.maketforfigma p {
+			/*color: #fff;*/
+			/*color: #05386B;*/
+			color: #98a6ad;
+			text-decoration: none;
+			letter-spacing: .01875rem;
+			font-size: .775rem;
+			padding: 0 10px;
+			line-height: 0.70rem;
+		}
+
+		.maketforfigma p>a {
+			/*color: #08ff00;*/
+			/*color: #EDF5E1;*/
+			color: #bbe4f0;
+			font-weight: bold;
+		}
+
+		.maketforfigma p>a:hover {
+			/*color: #ffa001*/
+			/*color: #379683*/
+			color: #ffffff
+		}
+
+		.main {
+			flex: 1 0 auto;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			padding: 0;
+			margin: 0;
+		}
+	</style>
+	<div class="maketforfigma">
+		<a href="https://t.me/s/FigmaToHTML" target="_blank">
+			<img src="logo.png">
+		</a>
+		<div>
+			<p>
+				Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+					href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+			</p>
+			<p>
+				При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за
+					деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+				<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+			</p>
+		</div>
+	</div>
+	<!-- Конец -->
+
+	<div class="main">
+		<div class="main-screen">
+			<div class="container">
+				<header class="header">
+					<div class="logo">
+						<a href="#">INNOMA<span class="logo_blue">.VC</span></a>
+					</div>
+
+					<nav class="nav">
+						<ul>
+							<li class="nav__item"><a href="#">Кто мы?</a></li>
+							<li class="nav__item"><a href="#">Услуги</a></li>
+							<li class="nav__item"><a href="#">Акселератор</a></li>
+							<li class="nav__item"><a href="#">Новости</a></li>
+						</ul>
+					</nav>
+
+					<button id="sign-in" class="btn btn_green btn_sign-up">Войти</button>
+
+					<button class="nav_mobile"></button>
+				</header>
+
+				<div class="main-screen-text">
+					<h1 class="main-screen__heading">Запустите <br>
+						<span class="main-screen__heading_green">технологический IT-бизнес </span><br>
+						на международных рынках
+					</h1>
+
+					<h2 class="main-screen__subheading">Открыт набор заявок на акселератор</h2>
+
+					<button class="btn btn_blue btn_join">Подать заявку</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="offers">
+			<div class="container">
+				<h3 class="heading offers__heading">Наши услуги</h3>
+
+				<div class="offers-description research">
+					<div class="offers-description__img">
+						<img src="img/kisspng-competitor-analysis-market-research-marketing-quan-5b102810d85456 1.png" alt="">
+					</div>
+
+					<div class="research-info">
+						<h4 class="offers-description__heading">Аналитические исследования</h4>
+
+						<p class="offers-description__text">Одним из наших ключевых направлений является анализ технологических
+							трендов на
+							международных рынках.
+							Мы проводим анализ на основе публичных исследований McKinsey, BCG, PWC, Deloitte, Accenture, BCG, EY,
+							Crunchbase, Dealroom, F6S, PitchBook а также агрегируем и анализируем данные из открытых международных
+							источников патенты, медиа, научные публикации
+						</p>
+
+						<button class="btn btn_green btn_learn-more">Узнать подробнее</button>
+					</div>
+				</div>
+
+				<div class="offers-description accelerator">
+					<div class="offers-description__img">
+						<img src="img/rocket.png" alt="">
+					</div>
+
+					<div class="accelerator-info">
+						<h4 class="offers-description__heading">Онлайн акселератор для IT бизнеса</h4>
+
+						<p class="offers-description__text">Онлайн программа аскелерации IT бизнеса позволит вашей команде открыть
+							новые горизонты и возможности для бизнеса на глобальных рынках. В результате программы вы получите
+							возможность презентовать свой проект для международных инвесторов и локальных партнеров
+						</p>
+
+						<button class="btn btn_green btn_learn-more">Узнать подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="who-needs">
+			<div class="container">
+				<h3 class="heading who-needs__heading">Для кого мы?</h3>
+
+				<div class="cards">
+					<div class="card card-template">
+						<p class="card__number">01</p>
+
+						<h4 class="card__title">IT проекты на стадии идеи</h4>
+						<p class="card__text">Для стартапов, которые планируют привлечь международные инвестиции, протестировать
+							спрос и запустить продукт</p>
+					</div>
+
+					<div class="card card-template">
+						<p class="card__number">02</p>
+
+						<h4 class="card__title">Инновационный бизнес</h4>
+						<p class="card__text">Для уже работающего технологического бизнес, позволим найти новые международне рынки
+							сбыта, масштабировать бизнес</p>
+					</div>
+
+					<div class="card card-template">
+						<p class="card__number">03</p>
+
+						<h4 class="card__title">Корпорации</h4>
+						<p class="card__text">Для уже работающего технологического бизнес, позволим найти новые международне рынки
+							сбыта, масштабировать бизнес</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="promo">
+			<div class="container">
+				<p class="promo__main-text promo__main-text_green">Научитесь исследовать иностранные рынки
+					и откройте новые возможности для своего бизнеса</p>
+				<p class="promo__text">Наша команда поможет вам изучить рынки Ближнего Востока, Азии, Латинской Америки и Африки
+				</p>
+
+				<button class="btn btn_blue btn_get-consult">Получить консультацию</button>
+			</div>
+		</div>
+
+		<div class="market">
+			<div class="container">
+				<h3 class="heading market__heading">С какими рынками мы работаем?</h3>
+
+				<div class="regions">
+					<div class="region region_active">Ближний восток</div>
+					<div class="region">Азия</div>
+					<div class="region">Латинская Америка</div>
+					<div class="region">Африка</div>
+				</div>
+
+				<div class="wrapper">
+					<div class="market-text">
+						<h4 class="market__subheading">Чем интересен
+							<span>Рынок MENA:</span>
+						</h4>
+
+						<p class="market__text">ОАЭ, Саудовская Аравия,
+							Израиль, Оман, Бахрейн, Катар,
+							Тунис, Йемен, Египет, Алжир</p>
+
+						<button class="btn btn_blue btn_market">Выйти на рынок</button>
+
+						<div class="market-profile">
+							<div class="market-profile__img">
+								<img src="img/ppl/ppl3.png" alt="">
+							</div>
+
+							<div class="market-profile__text">
+								<p class="name">Фатима</p>
+								<p>Менеджер по MENA</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="market__card card-template card card_first">
+						<p class="card__num">>5,5</p>
+						<p class="card__caption">Инвестиции pre-seed, seed</p>
+					</div>
+
+					<div class="market__card card-template card card_second">
+						<p class="card__num">>300</p>
+						<p class="card__caption">Акселераторов, инкубаторов</p>
+					</div>
+
+					<div class="market__card card-template card card_third">
+						<p class="card__num">73</p>
+						<p class="card__caption">Венчурных фонда</p>
+					</div>
+
+					<div class="market__card card-template card card_fourth">
+						<svg>
+							<use xlink:href="icons/sprite.svg#download"></use>
+						</svg>
+
+						<p class="card__caption">Скачать отчет
+							по рынку MENA</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="about">
+			<div class="container">
+				<h3 class="heading about__heading">Об акселераторе IT бизнеса</h3>
+
+				<p class="about__text">Программа акселератора расчитана на 8 недель интенсивного онлайн курса с вебинарами
+					приглашенных экспертов по
+					международным рынкам, разборами ваших идей и проектов</p>
+
+				<div class="about-cards">
+					<div class="about__card card-template">
+						<p class="about__num">3</p>
+						<p class="about__caption">Месяца обучения</p>
+					</div>
+
+					<div class="about__card card-template">
+						<svg class="earth">
+							<use xlink:href="icons/sprite.svg#earth"></use>
+
+						</svg>
+						<p class="about__caption">Приглашенные эксперты</p>
+					</div>
+
+					<div class="about__card card-template">
+						<svg class="time">
+							<use xlink:href="icons/sprite.svg#time"></use>
+
+						</svg>
+						<p class="about__caption">Персональный менеджер</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
