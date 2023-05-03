@@ -29,6 +29,10 @@ a {
   color: $white;
   font-weight: 600;
 
+  &_menu {
+    display: none;
+  }
+
   &_green {
     padding: 24.5px 0;
     width: 326px;
@@ -126,10 +130,6 @@ a {
     &:nth-of-type(n+2) {
       margin-left: 52px;
     }
-  }
-
-  &_mobile {
-    display: none;
   }
 }
 
@@ -362,10 +362,6 @@ a {
         border-radius: 5px;
       }
     }
-
-
-
-
   }
 
   .wrapper {
@@ -547,7 +543,7 @@ a {
 
     font-family: 'Inter';
 
-    .num::before {
+    .num {
       display: block;
       content: '3';
 
@@ -559,17 +555,13 @@ a {
       background-image: $green-blue;
     }
 
-    .earth::before {
+    .earth {
       display: block;
-      content: url(../icons/earth.svg);
-
       margin-bottom: 30px;
     }
 
-    .time::before {
+    .time {
       display: block;
-      content: url(../icons/time.svg);
-
       margin-bottom: 30px;
     }
   }
@@ -1019,18 +1011,6 @@ a {
       font-weight: 500;
       font-size: 14px;
       line-height: 25px;
-    }
-  }
-
-  &-live {
-    display: flex;
-
-    img {
-      visibility: hidden;
-
-      &:nth-of-type(4) {
-        visibility: visible;
-      }
     }
   }
 }

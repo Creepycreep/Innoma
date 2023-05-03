@@ -44,4 +44,15 @@ document.addEventListener('DOMContentLoaded', () => {
     experts.style.marginLeft = position + 'px';
 
   })
+
+
+  let btnMenu = document.querySelector('.btn_menu'),
+    menu = document.querySelector('.nav_mobile'),
+    body = document.querySelector('body');
+
+  btnMenu.addEventListener('click', () => {
+    btnMenu.classList.toggle('btn_menu_active');
+    menu.classList.toggle('nav_mobile_active');
+    body.classList.toggle('overflow');
+  })
 });

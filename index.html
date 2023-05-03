@@ -21,7 +21,7 @@
 					<a href="#">INNOMA<span class="logo_blue">.VC</span></a>
 				</div>
 
-				<nav class="nav">
+				<nav class="nav nav_mobile">
 					<ul>
 						<li class="nav__item"><a href="#">Кто мы?</a></li>
 						<li class="nav__item"><a href="#">Услуги</a></li>
@@ -32,12 +32,17 @@
 
 				<button id="sign-in" class="btn btn_green btn_sign-up">Войти</button>
 
-				<button class="nav_mobile"></button>
+				<button class="btn btn_menu">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
 			</header>
 
 			<div class="main-screen-text">
 				<h1 class="main-screen__heading">Запустите <br>
-					<span class="main-screen__heading_green">технологический IT-бизнес </span><br>
+					<span class="main-screen__heading_green">технологический IT&nbsp-&nbspбизнес </span><br>
 					на международных рынках
 				</h1>
 
@@ -210,15 +215,22 @@
 
 			<div class="about-cards">
 				<div class="about__card card-template">
-					<p class="about__caption num">Месяца обучения</p>
+					<div class="num">3</div>
+					<p class="about__caption ">Месяца обучения</p>
 				</div>
 
 				<div class="about__card card-template">
-					<p class="about__caption earth">Приглашенные эксперты</p>
+					<div class="earth">
+						<img src="icons/earth.svg" alt="">
+					</div>
+					<p class="about__caption ">Приглашенные эксперты</p>
 				</div>
 
 				<div class="about__card card-template">
-					<p class="about__caption time">Персональный менеджер</p>
+					<div class="time">
+						<img src="icons/time.svg" alt="">
+					</div>
+					<p class="about__caption ">Персональный менеджер</p>
 				</div>
 			</div>
 
@@ -539,7 +551,8 @@
 
 			<div class="price__wrapper">
 				<div class="card-template price__card card">
-					<p class="card__title adobe card_pad">Анализ международных
+					<p class="card__title adobe card_pad">
+						Анализ международных
 						рынков </p>
 					<p class="card__caption card_pad">Что входит в отчет?</p>
 
@@ -677,14 +690,6 @@
 
 					<p class="card__whois">Основатель INNOMA.VC</p>
 				</div>
-			</div>
-
-			<div class="us-live">
-				<img src="img/live.png" alt="">
-				<img src="img/live.png" alt="">
-				<img src="img/live.png" alt="">
-				<img src="img/live.png" alt="">
-				<img src="img/live.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -881,7 +886,7 @@
 
 				<p class="questions__text">Или напишите нам:</p>
 
-				<div>
+				<div class="questions__socials-list">
 					<a class="questions__socials tg" href="#">Telegram</a>
 					<a class="questions__socials wa" href="#">Whatsapp</a>
 				</div>
