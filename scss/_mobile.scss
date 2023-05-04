@@ -21,6 +21,10 @@
       padding: 12.5px 0;
     }
 
+    &_sign-in_modal {
+      padding: 12.5px 0;
+    }
+
     &_join {
       width: 235px;
     }
@@ -62,6 +66,11 @@
         font-size: 20px;
       }
     }
+
+    .modal {
+      width: 60%;
+    }
+
 
     &-text {
       max-width: 100%;
@@ -846,6 +855,11 @@
       margin-right: 10px;
     }
 
+    &_sign-in_modal {
+      font-size: 14px;
+      padding: 12px 0;
+    }
+
     &_join {
       width: 235px;
     }
@@ -947,6 +961,20 @@
         font-size: 16px;
       }
     }
+
+    .modal {
+      width: 100%;
+
+      &__header {
+        font-size: 16px;
+      }
+
+      &__sign-up {
+        font-size: 12px;
+      }
+    }
+
+
 
     &__heading {
       font-size: 24px;
@@ -1566,7 +1594,6 @@
       font-size: 12px;
     }
   }
-
 
   .events {
     &__heading {

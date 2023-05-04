@@ -1,4 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
+  let signIn = document.querySelector('#sign-in'),
+    modal = document.querySelector('.main-screen__modal'),
+    closeModal = document.querySelector('.modal_close');
+
+  signIn.addEventListener('click', () => {
+    modal.classList.remove('main-screen__modal_close')
+    modal.classList.add('main-screen__modal_open');
+  })
+
+  closeModal.addEventListener('click', () => {
+    modal.classList.remove('main-screen__modal_open');
+    modal.classList.add('main-screen__modal_close')
+  })
+
+
+
+
   let play = document.querySelector('.btn_play'),
     video = document.querySelector('#video'),
     open = document.querySelector('.programs');
@@ -20,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.target.parentElement.classList.toggle('btn-svg_open');
     }
   });
-
 
   let width = 230 + 30,
     count = 4,

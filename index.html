@@ -15,7 +15,7 @@
 
 <body>
 	<div class="main-screen">
-		<div class="container">
+		<div class="container main-screen__container">
 			<header class="header">
 				<div class="logo">
 					<a href="#">INNOMA<span class="logo_blue">.VC</span></a>
@@ -31,6 +31,22 @@
 				</nav>
 
 				<button id="sign-in" class="btn btn_green btn_sign-up">Войти</button>
+
+				<div class="main-screen__modal">
+					<div class="container modal card-template">
+						<div class="modal_close">&#215;</div>
+						<h2 class="modal__header">Вход</h2>
+
+						<form class="modal__form" action="" method="POST">
+							<input type="mail" placeholder="Е-майл">
+							<input type="password" placeholder="Пароль">
+
+							<button id="modal_sign-in" class="btn btn_green btn_sign-in_modal">Войти</button>
+
+							<a class="modal__sign-up" href="#">Зарегистрироваться</a>
+						</form>
+					</div>
+				</div>
 
 				<button class="btn btn_menu">
 					<span></span>
